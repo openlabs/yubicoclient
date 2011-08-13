@@ -39,7 +39,7 @@ Links
 """
 from setuptools import setup
 
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 __author__ = 'Sharoon Thomas, Openlabs Technologies & Consulting (P) Limited'
 
 setup(
