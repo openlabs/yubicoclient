@@ -13,6 +13,7 @@ Its easy
 ````````
 
 ::
+
     from yubicoclient import YubicoClient
     client = YubicoClient(<client id>, <key>)
     client.verify(<OTP>)
@@ -30,8 +31,8 @@ To Install
 Links
 `````
   * `yubico <http://http://www.yubico.com//>`_
-  * `API Documentation <http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20>`_
-  * `Source Code <https://bitbucket.org/sharoonthomas/yubicoclient>`_
+  * `Yubico Documentation <http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20>`_
+  * `Source Code <https://github.com/openlabs/yubicoclient>`_
 
 :copyright: © 2011 by Openlabs Technologies & Consulting (P) Limited
 :license: BSD, see LICENSE for more details.
