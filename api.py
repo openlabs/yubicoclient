@@ -101,8 +101,8 @@ class YubicoClient(object):
              example, t2ZMtKeValdA+H0jVpj3LIichn4=.
           5. Append the value under key 'h' to the message. 
 
-        Read More here:
-            code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20
+        `Read More here 
+        <http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20>`_
 
         :param key_value_pais: A `dict` of key value pairs that will be used in
             the computation of 'h'
@@ -129,8 +129,8 @@ class YubicoClient(object):
         received key value pairs (excluding h) and the resulting key is checked
         for equality with the sent h
 
-        Read More here:
-            code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20
+        `Read More here 
+        <http://code.google.com/p/yubikey-val-server-php/wiki/ValidationProtocolV20>`_
 
         :param result: A `dict` with key value pairs sent in the response
         :return: True if verified, else False
